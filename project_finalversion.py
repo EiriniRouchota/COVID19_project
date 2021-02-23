@@ -127,9 +127,13 @@ def q1(file_name):
     print(df[df.isna().any(axis=1)]) #print the null values of the dataframe
 #----------------------------------------------------------------------	
 # Subroutine q2: Answer in question #2 of the project
-def q2(file_name):
-    df=get_dataframe(file_name)[["Admin2","Province_State","Country_Region","Confirmed","Deaths","Recovered","Active"]]
-    tab_print(df)
+def q2(file_name, file_name_prev):
+    df=get_dataframe(file_name)[["Confirmed","Deaths","Recovered","Active"]].sum().tolist();
+    dfprev=get_dataframe(file_name_prev)[["Confirmed","Deaths","Recovered","Active"]].sum().tolist();
+    print("Most recent confirmed cases = " + str(int(df[0] - dfprev[0])))
+    print("Most recent deaths = " + str(int(df[1] - dfprev[1])));
+    print("Most recent recovered cases = " + str(int(df[2] - dfprev[2])));
+    print("Most recent actice cases = " + str(int(df[3] - dfprev[3])));
 #----------------------------------------------------------------------	
 # Subroutine q3: Answer in question #3 of the project
 def q3(file_name, file_name_prev):
@@ -381,7 +385,7 @@ if __name__ == "__main__":
     if (2 in displayed_questions):
         print("Q2...", file=sys.stderr)
         print("Q2...")
-        q2(file_name)
+        q2(file_name, file_name_prev)
     if (3 in displayed_questions):
         print("Q3...", file=sys.stderr)
         print("Q3...")
