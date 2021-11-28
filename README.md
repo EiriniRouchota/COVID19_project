@@ -7,29 +7,38 @@ This is a data-science project about COVID-19 analysis based on official data fr
 - Necessary libraries ![image](https://user-images.githubusercontent.com/68953073/143774641-1389e743-4dbf-4cca-bd88-7cb258e0b2a9.png)
 -![image](https://user-images.githubusercontent.com/68953073/143774492-022f04e3-e1bf-47d1-983e-624880de6115.png)
 
-## **Data analysis (*until 22/1/2020*)**
-Five first rows of data 👇
-![image](https://user-images.githubusercontent.com/68953073/143775020-1489f7a9-4e83-4a19-9a2e-ca708fbb1e00.png)
+## **Data analysis Demo (*until 22/1/2020*)**
+
 Count of recently confirmed cases, recovered and active cases 👇
 ![image](https://user-images.githubusercontent.com/68953073/143775061-b751b990-5912-47fe-bc1d-e334c81236ba.png)
-Count of recently confirmed deaths and recovered regarding to Country/Region -Province/State wise. 👇
-![image](https://user-images.githubusercontent.com/68953073/143775134-54be4a80-8344-4801-82bd-8204d4f7ddc0.png)
-Count of confirmed deaths and recoveries regarding to Provinces/States of China 👇
-![image](https://user-images.githubusercontent.com/68953073/143775952-b2be2bfd-0a26-4853-b207-e50c3d11ba2b.png)
-Count of recently deaths 👇
-![image](https://user-images.githubusercontent.com/68953073/143775998-e3b801e9-c48d-47ca-b516-1e1b3000726e.png)
+
 Countries without covid cases 👇
 ![image](https://user-images.githubusercontent.com/68953073/143776031-bf919b70-6ef6-4c3a-99c7-1dbe17f2e8b8.png)
+
 Number of deaths per country 👇
 ![image](https://user-images.githubusercontent.com/68953073/143776201-7318a44b-636b-4982-a869-c6906465a2fc.png)
-Number of recovered per country 👇
-![image](https://user-images.githubusercontent.com/68953073/143776254-6364f4af-2425-4115-a850-ba470206dda6.png)
-Top 10 countries based on deaths, recovered and confirmed 👇
-![image](https://user-images.githubusercontent.com/68953073/143776336-1a7adad3-823d-42d0-815c-1ca81ac03b50.png)
-Plot number of total deaths, recovered, confirmed, active cases where total deaths > 150 per country 👇
+
+
+Number of total deaths, recovered, confirmed, active cases where total deaths > 150 per country 👇
 ![image](https://user-images.githubusercontent.com/68953073/143776376-731be0b7-3658-445c-bdf1-39507aaf0fa5.png)
 
+Number of deaths per USA State 👇 
+![image](https://user-images.githubusercontent.com/68953073/143776546-0e609a93-1969-4d12-abbe-c02d8dcf6cae.png)
 
+Active cases per China, India , USA 👇
+![image](https://user-images.githubusercontent.com/68953073/143776592-38efbef5-19e2-4a0a-8ec7-eb5c4f0d02c3.png)
+![image](https://user-images.githubusercontent.com/68953073/143776598-53a6d827-0f75-4a03-b608-0c104046c18a.png)
+![image](https://user-images.githubusercontent.com/68953073/143776602-70176f02-8aef-430b-954d-3643e301e260.png)
+![image](https://user-images.githubusercontent.com/68953073/143776613-e3c53ad1-6742-42d1-896a-ec73b1105a0c.png)
+
+Confirmed cases worldwide 🌎
+![image](https://user-images.githubusercontent.com/68953073/143776642-47390edc-6398-4fd5-956e-3ee73c698b47.png)
+
+
+Linear model 👇
+![image](https://user-images.githubusercontent.com/68953073/143776678-3549b3a3-09ce-4f34-8596-be4b8ab776d2.png)
+
+![image](https://user-images.githubusercontent.com/68953073/143776742-9de7ae29-f860-48f6-ad60-78dce799d3bf.png)
 
 
 
