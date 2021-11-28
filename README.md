@@ -34,8 +34,8 @@ Active cases per China, India , USA 👇
 Confirmed cases worldwide 🌎
 ![image](https://user-images.githubusercontent.com/68953073/143776642-47390edc-6398-4fd5-956e-3ee73c698b47.png)
 
-
 Linear model 👇
+
 ![image](https://user-images.githubusercontent.com/68953073/143776678-3549b3a3-09ce-4f34-8596-be4b8ab776d2.png)
 
 ![image](https://user-images.githubusercontent.com/68953073/143776742-9de7ae29-f860-48f6-ad60-78dce799d3bf.png)
